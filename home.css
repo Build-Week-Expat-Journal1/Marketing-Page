@@ -56,7 +56,7 @@ html {
 .navFlex {
     display: flex;
     justify-content: space-evenly;
-    font-size: 4rem ;
+    font-size: 1.5rem ;
     background-color: white;
     border: .1rem solid #262322;
     padding: 3rem;
@@ -129,7 +129,6 @@ img .logoMiddle{
 
 .profiles {
     display: flex;
-    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -191,15 +190,105 @@ img .logoMiddle{
     padding: 2rem;
     border: .1rem solid black
 }
+.Contacts {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color:black;
+	padding:30px;
+	align-items: center;
+	margin-bottom:0;
+	position: relative;
+	bottom:0;
 
-@media(min-width:500px){
+
+	
+}
+
+.conbutt {
+	padding: 2rem;
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+	background-color: none;
+	border-radius: 25%;
+
+}
+
+.conbutt:hover {
+	background-color: blue;
+}
+
+.socialflex {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 60px;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin:5px 2px;
+  } 
+  .fa:hover {
+    opacity: 0.7;
+}
+	.fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+
+  .fa-github {
+	  background: white;
+	  color:black;
+  }
+
+@media(min-width:1000px){
 
     .navFlex {
         font-size: 2rem ;
-        background-color: white;
-        padding: 2.5rem;
+    
     }
+   
+.profiles{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
 
+.profiles h2 {
+    font-size: 3rem;
+    align-items: center;
+    margin-top: 0rem;
+    padding-left:5rem;
+    border-right: .2rem solid black;
+    padding-right: 5rem;
+
+}
+
+.profiles h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    border-right: .2rem solid black;
+    padding-right:3rem;
+    padding-left: 0rem;
+
+}
 
 }
 
