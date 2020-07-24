@@ -87,7 +87,7 @@ nav .navin.about{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgray;
+    background-color: #f4f4f4;
 
     
 }
@@ -112,7 +112,7 @@ img .logoMiddle{
 
 .topPart h2 {
     margin: 5rem;
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 550;
     margin-bottom: 4rem;
     letter-spacing: .5rem;
@@ -172,7 +172,7 @@ img .logoMiddle{
 }
 
  .second img {
-     width: 100%;
+     width: 90%;
      height: 35%;
      margin-bottom: 4rem;
  }
@@ -216,23 +216,25 @@ img .logoMiddle{
 }
 
 .conbutt:hover {
-	background-color: blue;
+    background-color: white;
+    color: black;
 }
 
 .socialflex {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	height: 60px;
+	height: 6rem;
 }
 
 .fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 50px;
+    padding: 2rem;
+    padding-bottom: 2rem;
+	font-size: 3rem;
+	width: 5rem;
 	text-align: center;
 	text-decoration: none;
-	margin:5px 2px;
+	margin:.3rem .1rem;
   } 
   .fa:hover {
     opacity: 0.7;
@@ -252,14 +254,155 @@ img .logoMiddle{
   }
 
   .fa-github {
-	  background: white;
-	  color:black;
+	  background: black;
+	  color:white;
   }
+
+  .foot {
+    color: white;
+    margin-top: 2rem;
+  }
+
+
+
+  /* contactus.html */
+
+.meetUs h2{
+    font-size: 9rem;
+    text-align: center;
+    margin: 5rem;
+}
+
+.team {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+.team img{
+    width: 100%;
+    height: auto;
+
+}
+
+.memberOne{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    margin: 2rem;
+    width: 30%;
+}
+
+.memberOne .fa {
+    width: 80%;
+}
+
+
+
+.memberTwo{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    margin:2rem;
+    width: 30%;
+}
+
+.memberTwo .fa {
+    width: 80%;
+}
+
+.memberThree{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    margin:2rem;
+   
+    width: 30%;
+}
+
+.memberThree .fa {
+    width: 80%;
+}
+
+.memberFour{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    margin:2rem;
+   
+    width: 30%;
+}
+.memberFour .fa {
+    width: 80%;
+}
+
+.memberFive{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    margin:2rem;
+   
+    width: 30%;
+}
+.memberFive .fa {
+    width: 80%;
+}
+
+
+.memberSix{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    margin:2rem;
+   
+    width: 30%;
+}
+.memberSix .fa {
+    width: 80%;
+}
+
+.memberSeven{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    margin:2rem;
+   
+    width: 30%;
+}
+.memberSeven .fa {
+    width: 80%;
+}
+
+@media(min-width:500px){
+
+    .topPart h2 {
+        font-size: 20rem;
+      
+    }
+    
+}
 
 @media(min-width:1000px){
 
     .navFlex {
         font-size: 2rem ;
+    
+    }
+
+    .topPart h2 {
+        margin: 5rem;
+        font-size: 8em;
+      
+    }
+    
+    .topPart h3 {
+        font-size: 4rem;
+        margin-bottom: 8rem;
+        letter-spacing:1rem;
+        text-align: center;
     
     }
    
@@ -289,6 +432,12 @@ img .logoMiddle{
     padding-left: 0rem;
 
 }
+.second img {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 4rem;
+}
 
 }
+
 
