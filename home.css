@@ -51,6 +51,7 @@ html {
     width: 100%;
     font-size: 62.5%;
     background-color: white;
+    
 }
 
 .navFlex {
@@ -60,17 +61,26 @@ html {
     background-color: white;
     border: .1rem solid #262322;
     padding: 3rem;
+    align-items: center;;
+}
+
+.navFlex img {
+    width: 8rem;
+    margin-left: -8rem;
 }
 
 nav h1{
     border-right: .3rem solid black;
     padding-right: 3rem;
     text-align: center;
+    margin-left: -6rem;
+    font-size: 2.5rem;
 }
 
 .navin {
     text-decoration: none;
     color: #63372c;
+    font-size: 2.5rem;
 }
 nav .navin.photos{
     border-right:.3rem 
@@ -180,6 +190,7 @@ img .logoMiddle{
  .second h5 {
     font-size: 2.8rem;
     text-align: center;
+    width:80%;
 }
 
 .continue {
@@ -188,8 +199,17 @@ img .logoMiddle{
     margin: 4rem;
     text-align: center;
     padding: 2rem;
-    border: .1rem solid black
+    border: .1rem solid black;
+   
+
 }
+
+.continue:hover{
+    color:white;
+    background-color: black;
+}
+
+
 .Contacts {
 	display:flex;
 	flex-direction: column;
@@ -375,15 +395,8 @@ align-items: center;
 .memberSeven .fa {
     width: 80%;
 }
-
-@media(min-width:500px){
-
-    .topPart h2 {
-        font-size: 20rem;
-      
-    }
+/*  */
     
-}
 
 @media(min-width:1000px){
 
@@ -436,6 +449,13 @@ align-items: center;
     width: 100%;
     height: 35%;
     margin-bottom: 4rem;
+}
+
+.second h5 {
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+
 }
 
 }
