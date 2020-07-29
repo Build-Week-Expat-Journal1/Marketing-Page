@@ -50,14 +50,11 @@ table {
 html {
     width: 100%;
     font-size: 62.5%;
-    background-color: white;
-    
 }
 
 .navFlex {
     display: flex;
     justify-content: space-evenly;
-
     background-color: white;
     border: .1rem solid #262322;
     padding: 3rem;
@@ -468,11 +465,9 @@ align-items: center;
 .navFlex {
     display: flex;
     justify-content: space-evenly;
-
-    background-color: white;
     border: .1rem solid #262322;
     padding: 3rem;
-    align-items: center;;
+    align-items: center;
 }
 
 .navFlex img {
