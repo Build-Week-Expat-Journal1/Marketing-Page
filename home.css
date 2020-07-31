@@ -131,6 +131,8 @@ img .logoMiddle{
     margin-bottom: 8rem;
     letter-spacing: .4rem;
     text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
 }
 
@@ -416,6 +418,8 @@ align-items: center;
         margin-bottom: 8rem;
         letter-spacing:1rem;
         text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
     
     }
    
@@ -509,9 +513,11 @@ nav .navin.about{
   
  }
  .topPart h3 {
-     font-size: 3rem;
+     font-size: 2rem;
      margin-bottom: 5rem;
      letter-spacing: .2em;
+     padding-left: 2rem;
+     padding-right: 2rem;
  
  }
 
